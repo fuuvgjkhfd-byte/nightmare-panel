@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ذخیره کننده اینترنت"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/purple_700" />
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="متوقف شده"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="ذخیره اینترنت"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="روشن کردن اینترنت ذخیره شده"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="توقف"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/red_500"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اطلاعات: منتظر دستور"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black" />
+
+</LinearLayout>

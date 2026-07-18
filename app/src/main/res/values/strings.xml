@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ذخیره کننده</string>
+    <string name="save_internet">ذخیره اینترنت</string>
+    <string name="start_saved">روشن کردن اینترنت ذخیره شده</string>
+    <string name="saving">در حال ذخیره...</string>
+    <string name="playing">در حال پخش...</string>
+    <string name="stopped">متوقف شده</string>
+    <string name="data_saved">داده ذخیره شد</string>
+    <string name="data_playing">داده در حال پخش است</string>
+</resources>

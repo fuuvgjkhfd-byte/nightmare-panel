@@ -1,0 +1,5 @@
+-keep class com.nightmare.internetsaver.** { *; }
+-keep class okhttp3.** { *; }
+-keep class com.google.gson.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
